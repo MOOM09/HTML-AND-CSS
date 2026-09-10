@@ -12,31 +12,26 @@ header
     height: 30px;
     
 }
-Button
-{background-color: black;
-    color: white;
-    border-radius: 5px;
-    border-color: black;
-    border:0px;
+a
+{
+background-color: #000;
+color: white;
+
 }
-    button:hover
-    {
-        background-color: gray;
-        transition: 0.5s;
-        
-    }
+
+
 }
 
 
 .product-container {
   display: flex;
-  flex-direction: column; /* ترتيب المحتوى عمودياً */
-  width: 340px; /* عرض الكارت */
-  background-color: white; /* خلفية الكارت البيضاء */
-  border-radius: 16px; /* حواف دائرية للكارت */
-  padding: 16px; /* مسافة داخلية حول العناصر */
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* ظل خفيف للكارت */
-  margin: 20px auto; /* توسيط الكارت في منتصف الصفحة */
+  flex-direction: column; 
+  width: 340px; 
+  background-color: white;
+  border-radius: 16px; 
+  padding: 16px; 
+  box-shadow: 0 4px 15px black;
+  margin: 20px auto; 
 
 
 .product-image {
@@ -44,7 +39,7 @@ Button
   width: 100%;
 }
 
-/* 3. تنسيق الصورة */
+
 .product-image img {
   width: 100%;
   height: 220px;
@@ -139,6 +134,18 @@ Button
   background-color: #888888 !important;
   transform: scale(0.96);
 }
+}
+
+
+label {
+  position: absolute;
+  
+  left: 650px;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: small;
 }
         *{
             margin: 0px;
